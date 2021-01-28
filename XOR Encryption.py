@@ -17,7 +17,7 @@ def encrypt(char, key):
     return encrypted_text
 
 
-message = str(input("Enter the text to encode \U0001F510 : "))
+message = str(input("Enter the text to encode \U0001F510\n@> "))
 cipher = '10100111' #must contain 8 bits !
 encrypted_text = ''
 decrypted_text = ''
@@ -26,12 +26,14 @@ decrypted_text = ''
 for characters in message:
     if characters == ' ': #adding spaces as they are
         encrypted_text += ' '
-    encrypted_text += encrypt(characters, cipher)
+    else:
+        encrypted_text += encrypt(characters, cipher)
 
 # calling the function encrypt for each characters in encrypted_text ( "reXOR" )
 for characters in encrypted_text:
     if characters == ' ': #adding spaces as they are
         decrypted_text += ' '
-    decrypted_text += encrypt(characters, cipher)
+    else:
+        decrypted_text += encrypt(characters, cipher)
 
-print("-" * 80 +"\n\U0001F511 The encoded message is : " + encrypted_text + "\n\U0001F513 The decoded message is : " + decrypted_text)
+print("-" * 80 +"\n\U0001F511 The encoded message is :" + encrypted_text + "\n\U0001F513 The decoded message is :" + decrypted_text)
