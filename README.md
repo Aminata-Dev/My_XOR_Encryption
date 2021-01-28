@@ -1,1 +1,3 @@
-# My_XOR_Encryption
+``ÊÎÉÎ ÂÉÄÕÞ×ÓÎÈÉ ×ÕÈÍÂÄÓ ÐÎÓÏ ×ÞÓÏÈÉ``
+➡️💬🔒➡️🈲➡️🗝🔒➡️💬➡️
+``mini encryption project with python``
