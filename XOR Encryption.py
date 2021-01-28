@@ -35,7 +35,7 @@ def decrypt(char, key):
     return decrypted_text
 
 
-message = str(input("Enter the text to encode : "))
+message = str(input("Enter the text to encode \U0001F510 : "))
 cipher = '10100111' #must contain 8 bits !
 encrypted_text = ''
 decrypted_text = ''
@@ -52,4 +52,4 @@ for characters in encrypted_text:
         decrypted_text += ' '
     decrypted_text += decrypt(characters, cipher)
 
-print("-" * 80 +"\nThe encoded message is : " + encrypted_text + "\nThe decoded message is : " + decrypted_text)
+print("-" * 80 +"\n\U0001F511 The encoded message is : " + encrypted_text + "\n\U0001F513 The decoded message is : " + decrypted_text)
