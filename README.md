@@ -1,4 +1,4 @@
 ``ÊÎÉÎ ÂÉÄÕÞ×ÓÎÈÉ ×ÕÈÍÂÄÓ ÐÎÓÏ ×ÞÓÏÈÉ``
 ➡️💬🔒➡️🈲➡️🗝🔒➡️💬➡️
 ``mini encryption project with python``
-try this : https://www.youtube.com/watch?v=sJRPPUr1yic&ab_channel=ArcadeFireVEVO ( cipher = 10100111 )
+try this : ÏÓÓ×ÔÐÐÐÞÈÒÓÒÅÂÄÈÊÐÆÓÄÏÑÔíõ÷÷òÕÞÎÄÆÅøÄÏÆÉÉÂËæÕÄÆÃÂáÎÕÂñâñè ( cipher = 10100111 )
